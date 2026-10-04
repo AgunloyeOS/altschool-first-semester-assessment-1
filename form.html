@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form | AltSchool Assessment</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>AltSchool Application Form</h1>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="form.html">Application Form</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Help us personalize your learning journey</h2>
+
+        <p>
+          To give you the best experience, we'd love to know a bit more about
+          you. It only takes 1 minute!
+        </p>
+
+        <p>
+          <strong>Important:</strong> Your name will appear on your certificate
+          exactly as entered.
+        </p>
+
+        <form>
+          <p>
+            <label for="first-name">First Name</label><br />
+            <input
+              type="text"
+              id="first-name"
+              name="firstName"
+              placeholder="Enter first name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="middle-name">Middle Name (Optional)</label><br />
+            <input
+              type="text"
+              id="middle-name"
+              name="middleName"
+              placeholder="Enter middle name"
+            />
+          </p>
+
+          <p>
+            <label for="last-name">Last Name</label><br />
+            <input
+              type="text"
+              id="last-name"
+              name="lastName"
+              placeholder="Enter last name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="date-of-birth">Date of Birth</label><br />
+            <input type="date" id="date-of-birth" name="dateOfBirth" required />
+          </p>
+
+          <p>
+            <label for="gender">Gender</label><br />
+            <select id="gender" name="gender" required>
+              <option value="">Select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="non-binary">Non-binary</option>
+              <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="phone-number">Phone Number</label><br />
+            <input
+              type="tel"
+              id="phone-number"
+              name="phoneNumber"
+              placeholder="Enter phone number"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="country">Country of Residence</label><br />
+            <select id="country" name="country" required>
+              <option value="">Select country</option>
+              <option value="afghanistan">Afghanistan</option>
+              <option value="albania">Albania</option>
+              <option value="algeria">Algeria</option>
+              <option value="andorra">Andorra</option>
+              <option value="angola">Angola</option>
+              <option value="argentina">Argentina</option>
+              <option value="armenia">Armenia</option>
+              <option value="australia">Australia</option>
+              <option value="austria">Austria</option>
+              <option value="azerbaijan">Azerbaijan</option>
+              <option value="bahamas">Bahamas</option>
+              <option value="bahrain">Bahrain</option>
+              <option value="bangladesh">Bangladesh</option>
+              <option value="barbados">Barbados</option>
+              <option value="belarus">Belarus</option>
+              <option value="belgium">Belgium</option>
+              <option value="belize">Belize</option>
+              <option value="benin">Benin</option>
+              <option value="bhutan">Bhutan</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="bosnia-and-herzegovina">
+                Bosnia and Herzegovina
+              </option>
+              <option value="botswana">Botswana</option>
+              <option value="brazil">Brazil</option>
+              <option value="brunei">Brunei</option>
+              <option value="bulgaria">Bulgaria</option>
+              <option value="burkina-faso">Burkina Faso</option>
+              <option value="burundi">Burundi</option>
+              <option value="cambodia">Cambodia</option>
+              <option value="cameroon">Cameroon</option>
+              <option value="canada">Canada</option>
+              <option value="cape-verde">Cape Verde</option>
+              <option value="central-african-republic">
+                Central African Republic
+              </option>
+              <option value="chad">Chad</option>
+              <option value="chile">Chile</option>
+              <option value="china">China</option>
+              <option value="colombia">Colombia</option>
+              <option value="comoros">Comoros</option>
+              <option value="congo">Congo</option>
+              <option value="costa-rica">Costa Rica</option>
+              <option value="croatia">Croatia</option>
+              <option value="cuba">Cuba</option>
+              <option value="cyprus">Cyprus</option>
+              <option value="czech-republic">Czech Republic</option>
+              <option value="denmark">Denmark</option>
+              <option value="djibouti">Djibouti</option>
+              <option value="dominica">Dominica</option>
+              <option value="dominican-republic">Dominican Republic</option>
+              <option value="ecuador">Ecuador</option>
+              <option value="egypt">Egypt</option>
+              <option value="el-salvador">El Salvador</option>
+              <option value="equatorial-guinea">Equatorial Guinea</option>
+              <option value="eritrea">Eritrea</option>
+              <option value="estonia">Estonia</option>
+              <option value="eswatini">Eswatini</option>
+              <option value="ethiopia">Ethiopia</option>
+              <option value="fiji">Fiji</option>
+              <option value="finland">Finland</option>
+              <option value="france">France</option>
+              <option value="gabon">Gabon</option>
+              <option value="gambia">Gambia</option>
+              <option value="georgia">Georgia</option>
+              <option value="germany">Germany</option>
+              <option value="ghana">Ghana</option>
+              <option value="greece">Greece</option>
+              <option value="grenada">Grenada</option>
+              <option value="guatemala">Guatemala</option>
+              <option value="guinea">Guinea</option>
+              <option value="guinea-bissau">Guinea-Bissau</option>
+              <option value="guyana">Guyana</option>
+              <option value="haiti">Haiti</option>
+              <option value="honduras">Honduras</option>
+              <option value="hungary">Hungary</option>
+              <option value="iceland">Iceland</option>
+              <option value="india">India</option>
+              <option value="indonesia">Indonesia</option>
+              <option value="iran">Iran</option>
+              <option value="iraq">Iraq</option>
+              <option value="ireland">Ireland</option>
+              <option value="israel">Israel</option>
+              <option value="italy">Italy</option>
+              <option value="ivory-coast">Ivory Coast</option>
+              <option value="jamaica">Jamaica</option>
+              <option value="japan">Japan</option>
+              <option value="jordan">Jordan</option>
+              <option value="kazakhstan">Kazakhstan</option>
+              <option value="kenya">Kenya</option>
+              <option value="kiribati">Kiribati</option>
+              <option value="kuwait">Kuwait</option>
+              <option value="kyrgyzstan">Kyrgyzstan</option>
+              <option value="laos">Laos</option>
+              <option value="latvia">Latvia</option>
+              <option value="lebanon">Lebanon</option>
+              <option value="lesotho">Lesotho</option>
+              <option value="liberia">Liberia</option>
+              <option value="libya">Libya</option>
+              <option value="liechtenstein">Liechtenstein</option>
+              <option value="lithuania">Lithuania</option>
+              <option value="luxembourg">Luxembourg</option>
+              <option value="madagascar">Madagascar</option>
+              <option value="malawi">Malawi</option>
+              <option value="malaysia">Malaysia</option>
+              <option value="maldives">Maldives</option>
+              <option value="mali">Mali</option>
+              <option value="malta">Malta</option>
+              <option value="mauritania">Mauritania</option>
+              <option value="mauritius">Mauritius</option>
+              <option value="mexico">Mexico</option>
+              <option value="moldova">Moldova</option>
+              <option value="monaco">Monaco</option>
+              <option value="mongolia">Mongolia</option>
+              <option value="montenegro">Montenegro</option>
+              <option value="morocco">Morocco</option>
+              <option value="mozambique">Mozambique</option>
+              <option value="myanmar">Myanmar</option>
+              <option value="namibia">Namibia</option>
+              <option value="nepal">Nepal</option>
+              <option value="netherlands">Netherlands</option>
+              <option value="new-zealand">New Zealand</option>
+              <option value="nicaragua">Nicaragua</option>
+              <option value="niger">Niger</option>
+              <option value="nigeria">Nigeria</option>
+              <option value="north-korea">North Korea</option>
+              <option value="north-macedonia">North Macedonia</option>
+              <option value="norway">Norway</option>
+              <option value="oman">Oman</option>
+              <option value="pakistan">Pakistan</option>
+              <option value="panama">Panama</option>
+              <option value="papua-new-guinea">Papua New Guinea</option>
+              <option value="paraguay">Paraguay</option>
+              <option value="peru">Peru</option>
+              <option value="philippines">Philippines</option>
+              <option value="poland">Poland</option>
+              <option value="portugal">Portugal</option>
+              <option value="qatar">Qatar</option>
+              <option value="romania">Romania</option>
+              <option value="russia">Russia</option>
+              <option value="rwanda">Rwanda</option>
+              <option value="saudi-arabia">Saudi Arabia</option>
+              <option value="senegal">Senegal</option>
+              <option value="serbia">Serbia</option>
+              <option value="seychelles">Seychelles</option>
+              <option value="sierra-leone">Sierra Leone</option>
+              <option value="singapore">Singapore</option>
+              <option value="slovakia">Slovakia</option>
+              <option value="slovenia">Slovenia</option>
+              <option value="somalia">Somalia</option>
+              <option value="south-africa">South Africa</option>
+              <option value="south-korea">South Korea</option>
+              <option value="south-sudan">South Sudan</option>
+              <option value="spain">Spain</option>
+              <option value="sri-lanka">Sri Lanka</option>
+              <option value="sudan">Sudan</option>
+              <option value="suriname">Suriname</option>
+              <option value="sweden">Sweden</option>
+              <option value="switzerland">Switzerland</option>
+              <option value="syria">Syria</option>
+              <option value="taiwan">Taiwan</option>
+              <option value="tajikistan">Tajikistan</option>
+              <option value="tanzania">Tanzania</option>
+              <option value="thailand">Thailand</option>
+              <option value="togo">Togo</option>
+              <option value="trinidad-and-tobago">Trinidad and Tobago</option>
+              <option value="tunisia">Tunisia</option>
+              <option value="turkey">Turkey</option>
+              <option value="turkmenistan">Turkmenistan</option>
+              <option value="uganda">Uganda</option>
+              <option value="ukraine">Ukraine</option>
+              <option value="united-arab-emirates">United Arab Emirates</option>
+              <option value="united-kingdom">United Kingdom</option>
+              <option value="united-states">United States</option>
+              <option value="uruguay">Uruguay</option>
+              <option value="uzbekistan">Uzbekistan</option>
+              <option value="vatican-city">Vatican City</option>
+              <option value="venezuela">Venezuela</option>
+              <option value="vietnam">Vietnam</option>
+              <option value="yemen">Yemen</option>
+              <option value="zambia">Zambia</option>
+              <option value="zimbabwe">Zimbabwe</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="state">State/City of Residence</label><br />
+            <select id="state" name="state" required>
+              <option value="">Select state</option>
+              <option value="abia">Abia</option>
+              <option value="fct">Abuja Federal Capital Territory</option>
+              <option value="adamawa">Adamawa</option>
+              <option value="akwa-ibom">Akwa Ibom</option>
+              <option value="anambra">Anambra</option>
+              <option value="bauchi">Bauchi</option>
+              <option value="bayelsa">Bayelsa</option>
+              <option value="benue">Benue</option>
+              <option value="borno">Borno</option>
+              <option value="cross-river">Cross River</option>
+              <option value="delta">Delta</option>
+              <option value="ebonyi">Ebonyi</option>
+              <option value="edo">Edo</option>
+              <option value="ekiti">Ekiti</option>
+              <option value="enugu">Enugu</option>
+              <option value="gombe">Gombe</option>
+              <option value="imo">Imo</option>
+              <option value="jigawa">Jigawa</option>
+              <option value="kaduna">Kaduna</option>
+              <option value="kano">Kano</option>
+              <option value="katsina">Katsina</option>
+              <option value="kebbi">Kebbi</option>
+              <option value="kogi">Kogi</option>
+              <option value="kwara">Kwara</option>
+              <option value="lagos">Lagos</option>
+              <option value="nasarawa">Nasarawa</option>
+              <option value="niger">Niger</option>
+              <option value="ogun">Ogun</option>
+              <option value="ondo">Ondo</option>
+              <option value="osun">Osun</option>
+              <option value="oyo">Oyo</option>
+              <option value="plateau">Plateau</option>
+              <option value="rivers">Rivers</option>
+              <option value="sokoto">Sokoto</option>
+              <option value="taraba">Taraba</option>
+              <option value="yobe">Yobe</option>
+              <option value="zamfara">Zamfara</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="employment-status">Employment Status</label><br />
+            <select id="employment-status" name="employmentStatus" required>
+              <option value="">Select your status</option>
+              <option value="employed-full-time">Employed Full-time</option>
+              <option value="employed-part-time">Employed Part-time</option>
+              <option value="self-employed">Self-employed</option>
+              <option value="unemployed">Unemployed</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="education-level">Educational Level</label><br />
+            <select id="education-level" name="educationLevel" required>
+              <option value="">Select your level</option>
+              <option value="high-school">High School</option>
+              <option value="associates-degree">Associate's Degree</option>
+              <option value="bachelors-degree">Bachelor's Degree</option>
+              <option value="masters-degree">Master's Degree</option>
+              <option value="doctorate">Doctorate</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="referral-source">How did you hear about us?</label
+            ><br />
+            <select id="referral-source" name="referralSource" required>
+              <option value="">Select an option</option>
+              <option value="twitter">Twitter</option>
+              <option value="facebook">Facebook</option>
+              <option value="instagram">Instagram</option>
+              <option value="tiktok">Tiktok</option>
+              <option value="google-search">Google Search</option>
+              <option value="linkedin">Linkedin</option>
+              <option value="friend">Friend</option>
+              <option value="career-page">Career Page</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="home-address">Home Address</label><br />
+            <textarea
+              id="home-address"
+              name="homeAddress"
+              placeholder="Enter your home address"
+              required
+            ></textarea>
+          </p>
+
+          <button type="submit">Save &amp; Continue</button>
+        </form>
+
+        <p>
+          We'll never share your details. This is just to improve your learning
+          experience.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <address>Lagos, Nigeria</address>
+      <p>&copy; 2026 Oluwatosin Agunloye. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
